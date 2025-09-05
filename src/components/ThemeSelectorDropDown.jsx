@@ -9,7 +9,7 @@ export default function ThemeSelectorDropDown() {
             onChange={(e) => {
                 changeThemeSelector(e.target.value);
             }}
-            className="font-normal text-xl font-mono text-gray-950 dark:hover:text-stone-50 dark:text-amber-50 bg-stone-200 dark:bg-stone-700 dark:hover:bg-stone-600 hover:bg-stone-300 px-3 py-2 rounded-lg cursor-pointer"
+            className="bg-color-bg2-light dark:bg-color-bg2-dark dark:hover:bg-color-bg3-dark hover:bg-color-bg3-light px-3 py-2 rounded-lg cursor-pointer"
         >
             <option value="default">System</option>
             <option value="dark">Dark</option>
