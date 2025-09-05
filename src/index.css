@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+    @apply bg-stone-100 dark:bg-neutral-800;
+}
+
+h1 {
+    @apply font-semibold text-4xl font-mono pb-3 text-gray-950 dark:text-amber-50;
+}
+
+h2 {
+    @apply font-medium text-2xl font-mono pb-2 text-gray-950 dark:text-amber-50;
+}
+
+p {
+    @apply font-normal text-xl font-mono pb-1 text-gray-950 dark:text-amber-50;
+}
